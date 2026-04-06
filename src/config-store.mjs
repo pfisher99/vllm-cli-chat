@@ -10,8 +10,7 @@ export const DEFAULT_CONFIG = {
   endpoint: "http://127.0.0.1:8000/v1/chat/completions",
   model: "Qwen3.5-9B-local",
   systemPrompt: [
-    "You are a helpful assistant.",
-    "When thinking is enabled, reason briefly and always provide a clear final answer.",
+    "You are a helpful assistant."
   ].join(" "),
   temperature: 1.0,
   topP: 0.95,
